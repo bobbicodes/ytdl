@@ -1,0 +1,5 @@
+*.cache/
+.calva/
+node_modules/
+.nrepl-port
+video.mp4
