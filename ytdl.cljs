@@ -11,3 +11,7 @@
 
 (comment
   (save "https://www.youtube.com/watch?v=XIWZjQrCnzc"  "video.mp4"))
+
+(let [url (first *command-line-args*)
+      filename (second *command-line-args*)]
+  (save url filename))
